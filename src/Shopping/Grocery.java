@@ -1,7 +1,12 @@
-package shopping;
+package Shopping;
 
 public class Grocery extends Product {
-    public int weight=3;
-    public int price=20000;
 
+    public Grocery(String name, int price, int weight) {
+        super(name,price,weight);
+    }
+    @Override
+    public int getDiscountAmount() {
+        return 2000;
+    }
 }

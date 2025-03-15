@@ -1,5 +1,5 @@
 package Shopping;
 
-public interface Promotion {
-    public void getDiscountAmount();
+public interface Promotion{
+    public int getDiscountAmount();
 }
